@@ -4,7 +4,9 @@ This is ReplitDB based ( pretty sure its changed like tenfold since this is old 
 
 # Features
 ⌚ 3 second rotation
+
 🔒 Encrypted output
+
 🌐 IP & Application/browser Locked (User agent & port lock)
 
 # How it works
