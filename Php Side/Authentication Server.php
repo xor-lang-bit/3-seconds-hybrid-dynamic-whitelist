@@ -70,6 +70,6 @@ $enhash = base64_encode(hash('sha256', ($computerId . $Second . $catchphrase)) .
 if (array_key_exists($computerId, $database)){
 echo $enhash;
   }else{
-  echo base64_encode(hash('sha256', 'you naughty little cracker' . random_salt(15)) . ' == Do not share this == '); // so like itll look just like normal but itll be a fake auth! this is for ppl that post to the server to see what it returns... theyll be really confused when the output looks real/the same!
+  echo base64_encode(hash('sha256', 'you naughty little hacker!' . random_salt(15)) . ' == Do not share this == '); // so like itll look just like normal but itll be a fake auth! this is for ppl that post to the server to see what it returns... theyll be really confused when the output looks real/the same!
   }
 ?>
