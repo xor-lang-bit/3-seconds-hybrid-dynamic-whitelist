@@ -1,5 +1,11 @@
 # 3-seconds-hybrid-dynamic-whitelist
 PHP&amp;LUA Hybrid whitelist with a 3 second poll - A dynamic whitelist project I created yearsssssssss ago
+This is ReplitDB based ( pretty sure its changed like tenfold since this is old asf ) so you will have to transform it into modern code to make it work with ur db!
+
+# Features
+⌚ 3 second rotation
+🔒 Encrypted output
+🌐 IP & Application/browser Locked (User agent & port lock)
 
 # How it works
 Keys are based off user-agent fingerprints
