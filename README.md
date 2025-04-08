@@ -5,3 +5,7 @@ PHP&amp;LUA Hybrid whitelist with a 3 second poll - A dynamic whitelist project 
 Keys are based off user-agent fingerprints
 There is a 3 second time system which means every 3s the whitelist result changes
 The lua side is mostly composed of encoding libraries & functions
+
+# Should I use this
+If you're not really securing anything worth caring about too much, Sure go for it.
+But keep in mind this is literally a public whitelist who anyone can just find and use and reverse... please weigh your options... ( please )
