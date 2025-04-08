@@ -11,6 +11,6 @@ If you're not really securing anything worth caring about too much, Sure go for 
 But keep in mind this is literally a public whitelist who anyone can just find and use and reverse... please weigh your options... ( please )
 
 # Use cases
-## Learning 🧠🦕 - Who doesn't love learning!
-## This can work on Roblox studio plugins, quite well actually 👀
-## And um the darker side of things *cough cough* **exploits...**
+### Learning 🧠🦕 - Who doesn't love learning!
+### This can work on Roblox studio plugins, quite well actually 👀
+### And um the darker side of things *cough cough* **exploits...**
