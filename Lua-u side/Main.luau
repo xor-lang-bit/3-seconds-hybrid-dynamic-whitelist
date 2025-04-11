@@ -309,12 +309,11 @@ for i,v in next, Phrases do
 end
 
 local Construct = DecodeJit'ID09IERvIG5vdCBzaGFyZSB0aGlzID09IA=='
-local Second = (math.ceil(os.date('%S') / 3) * 3)
 local Whitelisted = false
 local Key = shared.key
-local Response = game:HttpGet(host_server) -- Gets server response
 repeat
-Second = (math.ceil(os.date('%S') / 3) * 3) -- this is where time matters, it ticks in 3 second bases, every 3s the response changes
+local Second = (math.ceil(os.date('%S') / 3) * 3) -- this is where time matters, it ticks in 3 second bases, every 3s the response changes -- this is where time matters, it ticks in 3 second bases, every 3s the response changes
+local Response = game:HttpGet(host_server) -- Gets server response
 for i, v in next, Phrases do
     local Constructed = EncodeJit(sha256(Key .. Second .. v)..Construct); -- checks if the response is the key with the second and our secure key combined
     if Constructed == Response then
